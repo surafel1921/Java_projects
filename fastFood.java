@@ -32,7 +32,13 @@ scanner.close();
 
 
     String priceMsg=String.format("You Have Bought %s",items);
+    System.out.println("-----------------------------------------");
+
+
     System.out.println( priceMsg + " "+"$"+ howMach*price);
+    System.out.println("-----------------------------------------");
+    System.out.println("Thank you for using our fast food service");
+
 
   
 }else{
