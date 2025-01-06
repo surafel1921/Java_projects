@@ -17,7 +17,7 @@ boolean shopIsOpen=true;
 
 if (shopIsOpen) {
     Scanner scanner = new Scanner(System.in);
-System.out.print("What item Wolds you lick to buy:");
+System.out.print("Insert your favorite food:");
 String items=scanner.nextLine();
 
 
