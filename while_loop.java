@@ -1,22 +1,28 @@
+
 import java.util.*;
-import java.util.Scanner;
-public class while_loop {
-
-    public static void main(String args[]){
-        Scanner scanner=new Scanner(System.in);
-
-             String q="";
-          
-             while(!q.equals("Q")){
-                         System.out.println("Enter Your name");
-                         q=scanner.nextLine().toUpperCase();
-                       
-                       
-             }
-        System.out.println(q);
+import java.util.Random;
+public class while_loop{
+   static int a=45;
+   static void fun(){
+    Scanner scanner=new Scanner(System.in);
+   
+      a=34;
 
 
-scanner.close();
+     System.out.println(a);
+
+    
+
+
+
+
+
+
     }
+public static void main(String[] args)throws InterruptedException {
+
+
+ fun();
+}
 
 }
