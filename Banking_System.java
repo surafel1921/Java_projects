@@ -56,7 +56,7 @@ while (isRunning) {
     System.out.println("***************************");
     System.out.println("Enter Your Chooice (1-4)");
     int  Chooice=scanner.nextInt();
-    System.out.println("************ Thanks for Using ***************");
+    System.out.println("***************************");
 
  switch (Chooice) {
     case 1:
