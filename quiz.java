@@ -59,13 +59,18 @@ for(int j=0;j<options[i].length;j++){
 }
  System.out.print("Answer:");
  user=scanner.nextLine().toUpperCase();
-if (answer[i].equals(user)) {
-  
-         System.out.println("Correct Answer");
-         count++;
-} else{
-  System.out.println("Not Correct Answer");
+if (user.equals("A") || user.equals("B")|| user.equals("C")  || user.equals("D")) {
+            if (answer[i].equals(user)) {
+            
+              System.out.println("Correct Answer");
+              count++;
+          } else{
+          System.out.println("Not Correct Answer");
 
+          }
+}else{
+System.out.println("This not Answere Please insert (A-D)");
+break;
 }
  }
     System.out.println(" correct answer"+" "+count+" "+"of"+" "+quetions.length);
