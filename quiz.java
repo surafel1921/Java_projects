@@ -52,9 +52,13 @@ public static void main(String[] args) {
  String[]answer={"A","C","C","C","A"};
  int count=0;
 String user="";
+
+
  for(int i=0;i<quetions.length;i++){
+
 System.out.println(quetions[i]);
 for(int j=0;j<options[i].length;j++){
+
   System.out.println(options[i][j]);
 }
  System.out.print("Answer:");
